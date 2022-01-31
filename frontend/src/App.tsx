@@ -78,7 +78,7 @@ class App extends Component<{}, Cells> {
     this.setState({ cells: newCells });
   }
 
-  async move() {
+  async switch() {
     if (
       window.location.href === "http://localhost:3000/newgame" &&
       oldHref !== window.location.href
@@ -95,7 +95,7 @@ class App extends Component<{}, Cells> {
   }
 
   render() {
-    this.move();
+    this.switch();
     return (
       <div className="App">
         <div
