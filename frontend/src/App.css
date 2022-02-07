@@ -14,6 +14,11 @@
   text-align: center;
 }
 
+#handlebars {
+  visibility: hidden;
+  display: none;
+}
+
 #bottombar {
   height: 5vh;
 }
