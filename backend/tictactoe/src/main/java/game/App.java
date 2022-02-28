@@ -22,7 +22,7 @@ public class App extends NanoHTTPD {
         this.game = new Game();
 
         start(NanoHTTPD.SOCKET_READ_TIMEOUT, false);
-        System.out.println("\nRunning! Point your browsers to http://localhost:8080/ \n");
+        System.out.println("\nRunning!\n");
     }
 
     @Override
